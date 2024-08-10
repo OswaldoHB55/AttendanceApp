@@ -32,7 +32,7 @@
                 <li><a class="dropdown-item" href="#!">Settings</a></li>
                 <li><a class="dropdown-item" href="#!">Activity Log</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#!">Logout</a></li>
+                <li><a class="dropdown-item" th:href="@{/logout}">Logout</a></li>
             </ul>
         </li>
     </ul>
@@ -51,7 +51,7 @@
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Docentes
                     </a>
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" th:href="@{/asignaciones}">
                         <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                         Docentes-Grupos
                     </a>
