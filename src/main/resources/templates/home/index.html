@@ -5,7 +5,17 @@
     layout:decorate="/layouts/_mainLayout">
 
 <div layout:fragment="content">
+    <!-- Saludo de bienvenida -->
+    <h1 class="text-center">
+        ¡Bienvenido, <span th:text="${username}"/>!
+    </h1>
 
-    <h1 class="text-center">Bienvenidos!!!!!!</h1>
+
+    <div class="text-center">
+        <!-- Imagen de bienvenida -->
+        <img src="/imagen/welcome-image.jpg" alt="Bienvenido" style="max-width: 200%; height: auto;"/>
+    </div>
+
+
 
 </div>
